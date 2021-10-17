@@ -1,0 +1,96 @@
+.logo{
+    width: 150px;
+    padding-left: 15%;
+}
+
+nav {
+    background-color: white!important;
+    width: 100%;
+}
+
+body {
+    background-color: #F3F2EF!important;
+}
+
+a{
+    text-decoration:none!important;
+    color: black!important;
+    line-height: 5px;
+}
+
+.nav-item {
+    margin: 1.5%;
+}
+
+.card {
+    margin-top:3%;
+    width: 100%;
+}
+.card-link {
+    margin-left: 0!important;
+}
+.post .sav .red {
+    margin-right: 150px;
+}
+#down {
+    font-size: 2em;
+    cursor: pointer;
+}
+#up {
+    font-size: 2em;
+    cursor: pointer;
+}
+.more {
+    display: none;
+}
+#down:hover {
+    font-size: 2.2em;
+}
+#up:hover {
+    font-size: 2.2em;
+}
+
+select {
+    border: none;
+    outline: none;
+}
+
+ul{
+    margin-right: 4%;
+}
+
+#connexion {
+    border-radius: 8%;
+    border: #333 solid 1px;
+    line-height: 20px;
+}
+#connexion:hover {
+    color: #fff!important;
+    background: #333;
+}
+
+
+@media (max-width:991px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    li{
+        width: 20%;
+    }
+    #connexion {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    
+
+}
+
+@media (max-width: 475px) {
+    
+    .logo {
+        padding-left: 5%;
+    }
+}
